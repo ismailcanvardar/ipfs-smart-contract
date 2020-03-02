@@ -1,5 +1,5 @@
-const SocialNetwork = artifacts.require("SocialNetwork");
+var SimpleStorage = artifacts.require("./SimpleStorage.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(SocialNetwork);
+  deployer.deploy(SimpleStorage);
 };
